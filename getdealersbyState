@@ -1,0 +1,27 @@
+curl -X GET http://127.0.0.1:8000/fetchDealers/Kansas
+
+Output:
+[
+  {
+    "id": 1,
+    "name": "Best Cars Dealer",
+    "city": "Wichita",
+    "state": "Kansas",
+    "address": "123 Main Street",
+    "zip": "67201",
+    "latitude": 37.6872,
+    "longitude": -97.3301,
+    "short_name": "BCD"
+  },
+  {
+    "id": 4,
+    "name": "Kansas Auto Hub",
+    "city": "Topeka",
+    "state": "Kansas",
+    "address": "456 Capitol Ave",
+    "zip": "66603",
+    "latitude": 39.0473,
+    "longitude": -95.6752,
+    "short_name": "KAH"
+  }
+]
