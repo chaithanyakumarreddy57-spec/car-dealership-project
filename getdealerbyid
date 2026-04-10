@@ -1,0 +1,14 @@
+curl -X GET http://127.0.0.1:8000/fetchDealer/1
+
+Output:
+{
+  "id": 1,
+  "name": "Best Cars Dealer",
+  "city": "Wichita",
+  "state": "Kansas",
+  "address": "123 Main Street",
+  "zip": "67201",
+  "latitude": 37.6872,
+  "longitude": -97.3301,
+  "short_name": "BCD"
+}
