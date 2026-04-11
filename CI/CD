@@ -1,7 +1,5 @@
 GitHub Actions Workflow Run
 
-Run started...
-
 ========================================
 Job: Lint Python Files
 Job ID: lint-python
@@ -14,7 +12,7 @@ Run actions/checkout@v3
 ✔ Checked out repository
 
 Run actions/setup-python@v3
-✔ Python 3.x installed
+✔ Python installed
 
 Run pip install flake8
 ✔ Dependencies installed
@@ -38,7 +36,7 @@ Run actions/checkout@v3
 ✔ Checked out repository
 
 Run actions/setup-node@v3
-✔ Node.js installed
+✔ Node installed
 
 Run npm install
 ✔ Dependencies installed
