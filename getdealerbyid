@@ -1,6 +1,6 @@
 curl -X GET http://127.0.0.1:8000/fetchDealer/1
 
-Output:
+Response:
 {
   "id": 1,
   "name": "Best Cars Dealer",
